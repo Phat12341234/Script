@@ -1,4 +1,4 @@
-if os.date("%d%m%y") >"160424" then
+if os.date("%d%m%y") >"300423" then
 gg.alert ('Update Script My Channel \nWeigh')
 os.exit() end
 aurell = gg.alert([[
