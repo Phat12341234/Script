@@ -74,15 +74,11 @@ function Weigh()
 
 Mode = gg.choice({
 'Blockman Go🇻🇳',
-'Free Fire🇻🇳',
-'Liên Quân Mobile🇻🇳',
 'Exit↩ ',
 },nil,'Chọn Game')
 if Mode == nil then else
 if Mode == 1 then A()end
-if Mode == 2 then B()end
-if Mode == 3 then C()end
-if Mode == 4 then os.exit()end
+if Mode == 2 then os.exit()end
 end
 MenuVisible = -1
 end
@@ -98,7 +94,7 @@ Mode = gg.multiChoice({
 'X2 Tầm Nhìn',
 'Super Speed',
 'Big Name',
-'Back↩',},nil,' Blockman Go')
+'Back↩',},nil,' Blockman Go New Update 17/04/2023')
 if Mode == nil then else
 if Mode[1] == true then A1()end
 if Mode[2] == true then A2()end
@@ -177,10 +173,10 @@ gg.clearResults()
 end
 function A6   ()
 gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber('-1',
+gg.searchNumber('-1F',
 gg.TYPE_FLOAT)
 gg.getResults(200)
-gg.editAll('-2',
+gg.editAll('-2F',
 gg.TYPE_FLOAT)
 gg.clearResults()
 end
@@ -288,13 +284,7 @@ gg.editAll('h 00 00 00 00 D0 B5 02 AF 82 B0 D0 F8 00 C0 4F F0 7E 54 D7 F8 08 E0 
 gg.clearResults()
 end
 function A6   ()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber('-1',
-gg.TYPE_FLOAT)
-gg.getResults(200)
-gg.editAll('-2',
-gg.TYPE_FLOAT)
-gg.clearResults()
+
 end
 function A7   ()
 gg.setRanges(gg.REGION_CODE_APP)
