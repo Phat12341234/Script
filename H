@@ -1,3 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuo
-
-scripts"))()
+loadstring(game:HttpGet("https://github.com/Basicallyy/Basicallyy/raw/main/Min_XT_V1_TiengViet.lua"))()
